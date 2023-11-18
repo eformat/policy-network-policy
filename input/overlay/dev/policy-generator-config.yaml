@@ -25,10 +25,8 @@ policyDefaults:
 policies:
   - name: dev
     namespaceSelector:
-      include:
-        - "*"
-      exclude:
-        - "openshift*"
+      include: ["*"]
+      exclude: ["openshift*","kube-*","default"]
     manifests:
       - path: input/
         kustomizeOptions:

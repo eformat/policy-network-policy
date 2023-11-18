@@ -4,3 +4,4 @@ resources:
 - allow-from-ingress.yaml
 - allow-from-k8s-api.yaml
 - allow-from-monitoring.yaml
+- allow-all-egress.yaml
