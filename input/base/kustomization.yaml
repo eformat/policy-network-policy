@@ -1,0 +1,6 @@
+resources:
+- deny-by-default.yaml
+- allow-same-namespace.yaml
+- allow-from-ingress.yaml
+- allow-from-k8s-api.yaml
+- allow-from-monitoring.yaml
