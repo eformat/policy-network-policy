@@ -2,9 +2,9 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: PolicyGenerator
 metadata:
-  name: dev
+  name: netpol-all
 placementBindingDefaults:
-  name: dev
+  name: netpol-all
 policyDefaults:
   placement:
     placementName: placement-netpol
@@ -23,7 +23,7 @@ policyDefaults:
     - NIST SP 800-53
   policyAnnotations: {"argocd.argoproj.io/compare-options": "IgnoreExtraneous"}
 policies:
-  - name: dev
+  - name: netpol-all
     namespaceSelector:
       include: ["*"]
       exclude: ["openshift*","kube-*","default"]

@@ -1,4 +1,3 @@
 resources:
 - placement.yaml
-- input/overlay/dev
-- input/overlay/test
+- input/overlay/all-namespaces
