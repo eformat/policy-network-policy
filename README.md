@@ -7,6 +7,10 @@ Generate NetworkPolicy to meet OCP-CIS 5.3.2
 
 - https://github.com/ComplianceAsCode/content/blob/master/applications/openshift/networking/configure_network_policies_namespaces/rule.yml
 
+Based on
+
+- https://docs.openshift.com/container-platform/4.13/networking/network_policy/multitenant-network-policy.html
+
 CLI:
 
 ```bash
